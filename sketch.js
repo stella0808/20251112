@@ -62,7 +62,7 @@ const dragQuestions = [
   {
     questionParts: ["下列何者是外表有刺的水果？ ", ""], 
     blanks: ["榴槤"],
-    choices: ["芒果", "木瓜", "蘋果", "柳橙"] 
+    choices: ["芒果", "榴槤", "蘋果", "柳橙"] 
   },
   {
     questionParts: ["下列何者水果沒有籽 = ", ""],
