@@ -407,7 +407,7 @@ function displayStartScreen() {
     textSize(50);
     fill(defaultColor);
     textAlign(CENTER, CENTER);
-    text("水果知多少", BASE_WIDTH / 2, BASE_HEIGHT / 2 - 50);
+    text("水果小測驗", BASE_WIDTH / 2, BASE_HEIGHT / 2 - 50);
 
     // 開始按鈕
     let btnColor = color(100, 180, 255); 
