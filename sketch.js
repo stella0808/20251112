@@ -49,9 +49,9 @@ let imageMatchChoices = [];
 
 // 選擇題 (MCQ) - 3 題
 const questions = [
-  ["請問英文字母有幾個？", ["24", "25", "26", "27"], 2],
-  ["請問注音符號有幾個？", ["34", "35", "36", "37"], 2],
-  ["請問英文字母有幾個母音？", ["4", "5", "6", "7"], 1]
+  ["請問紫色一顆一顆的是什麼水果？", ["葡萄", "蘋果", "香蕉", "鳳梨"], 1],
+  ["請問綠色外表紅色內容物是什麼水果？", ["水蜜桃", "小番茄", "西瓜", "榴槤"], 2],
+  ["請問何者水果是黃色的？", ["蘋果", "香蕉", "葡萄", "橘子"], 1]
 ];
 let answeredMCQ = false;
 let mcqOptionColors = [];
@@ -60,14 +60,14 @@ let mcqFeedbackTimer = 0;
 // 拖拉填空題 (Drag & Drop) - 2 題
 const dragQuestions = [
   {
-    questionParts: ["1+1= ", ""], 
-    blanks: ["2"],
-    choices: ["1", "2", "3", "4"] 
+    questionParts: ["下列何者是有刺的水果？ ", ""], 
+    blanks: ["榴槤"],
+    choices: ["芒果", "木瓜", "蘋果", "柳橙"] 
   },
   {
-    questionParts: ["8*5 = ", ""],
-    blanks: ["40"], 
-    choices: ["20", "30", "40", "50"]
+    questionParts: ["下列何者水果沒有籽 = ", ""],
+    blanks: ["香蕉"], 
+    choices: ["木瓜", "西瓜", "百香果", "香蕉"]
   }
 ];
 let draggableChoices = []; 
