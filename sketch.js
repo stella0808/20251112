@@ -60,7 +60,7 @@ let mcqFeedbackTimer = 0;
 // 拖拉填空題 (Drag & Drop) - 2 題
 const dragQuestions = [
   {
-    questionParts: ["下列何者是有刺的水果？ ", ""], 
+    questionParts: ["下列何者是外表有刺的水果？ ", ""], 
     blanks: ["榴槤"],
     choices: ["芒果", "木瓜", "蘋果", "柳橙"] 
   },
@@ -407,7 +407,7 @@ function displayStartScreen() {
     textSize(50);
     fill(defaultColor);
     textAlign(CENTER, CENTER);
-    text("隨堂小測驗", BASE_WIDTH / 2, BASE_HEIGHT / 2 - 50);
+    text("水果知多少", BASE_WIDTH / 2, BASE_HEIGHT / 2 - 50);
 
     // 開始按鈕
     let btnColor = color(100, 180, 255); 
